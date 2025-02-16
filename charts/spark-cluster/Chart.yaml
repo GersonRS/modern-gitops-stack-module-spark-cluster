@@ -1,0 +1,8 @@
+apiVersion: v2
+name: spark-cluster
+description: This chart bootstraps an Apache Spark deployment on a Kubernetes cluster using the Helm package manager.
+version: "0"
+dependencies:
+  - name: spark
+    repository: oci://registry-1.docker.io/bitnamicharts
+    version: "*.*.*"

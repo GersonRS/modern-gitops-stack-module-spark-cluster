@@ -1,0 +1,6 @@
+dependencies:
+- name: spark
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 9.3.3
+digest: sha256:9a2af4f90f535f777e12476920a407f80511ce823719355d0e4804c363cac0fe
+generated: "2025-02-16T16:34:16.253481878-03:00"
