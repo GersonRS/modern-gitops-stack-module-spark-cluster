@@ -16,10 +16,10 @@ locals {
           requests = { for k, v in var.resources.master.requests : k => v if v != null }
           limits   = { for k, v in var.resources.master.limits : k => v if v != null }
         }
-        configOptions = [
-          "Dspark.ui.reverseProxy=true",
-          "Dspark.ui.reverseProxyUrl=${local.domain_full}"
-        ]
+        # configOptions = [
+        #   "Dspark.ui.reverseProxy=true",
+        #   "Dspark.ui.reverseProxyUrl=${local.domain_full}"
+        # ]
       }
       worker = {
         replicaCount = var.replicas
@@ -35,10 +35,10 @@ locals {
           requests = { for k, v in var.resources.worker.requests : k => v if v != null }
           limits   = { for k, v in var.resources.worker.limits : k => v if v != null }
         }
-        configOptions = [
-          "Dspark.ui.reverseProxy=true",
-          "Dspark.ui.reverseProxyUrl=${local.domain_full}"
-        ]
+        # configOptions = [
+        #   "Dspark.ui.reverseProxy=true",
+        #   "Dspark.ui.reverseProxyUrl=${local.domain_full}"
+        # ]
       }
       ingress = {
         enabled          = true
