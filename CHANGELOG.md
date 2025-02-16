@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/GersonRS/modern-gitops-stack-module-spark-cluster/compare/v1.0.0...v1.1.0) (2025-02-16)
+
+
+### 🚀 New Features
+
+* configure repo ([a62f000](https://github.com/GersonRS/modern-gitops-stack-module-spark-cluster/commit/a62f000e200c746448ffa4d25b8bbab7804632c6))
+
 ## [1.1.0](https://github.com/GersonRS/modern-gitops-stack-module-spark/compare/v1.0.0...v1.1.0) (2024-12-04)
 
 
